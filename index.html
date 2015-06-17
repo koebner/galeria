@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Pagina de Prueba Diseño para galerias con fotos</title>
+	<meta name="author" content="Isaac Marquina Moctezuma" />
+	<meta name="description" content="Galerias de fotografos" />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,backgrounds,full-screen" />
+	<meta name="Resource-type" content="Document" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+	
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="css/estilog.css"/>
+	
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+
+
+	<script type="text/javascript" src="vendors/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="vendors/examples.js"></script>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false
+
+			});
+		});
+	</script>
+</head>
+<body>
+	
+		<a href="http://40aniversario.xoc.uam.mx/" id="facelink"><img  src="imgs/prueba.png" alt="Siguenos en Facebook"></a>
+
+<select id="MenusGal">
+  <option id="Gal1" selected>Elige Artista</option>
+  <option id="Gal2">Rafael Torrado</option>
+  <option id="Gal3">Jose Ventura</option>
+  <option id="Gal4">Ignacio Campos</option>
+  <option id="Gal5">Leonel García</option>
+</select>
+<!-- 
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://alvarotrigo.com/fullPage/" data-text="Great plugin to create fullscreen scrolling websites: http://alvarotrigo.com/fullPage/">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+ -->
+<div id="fullpage">
+	<div class="section " id="section0"><h1>Carlos Montes</h1>
+		<p class="subti">Desarrollo fotografo</p>
+	</div>
+	<div class="section" id="section1"><h2>Descripcion Breve <br />Carlos Montes</h2>
+	<p>iririiiiiasdlñaslñdñasldlñasdlñaskdkñalsdklñaskdljligjjgdfjgldfjldfg</p>
+	</div>
+	<div class="section" id="section3">
+	    <div class="slide" id="slide1"><h2>Araña Saltadora</h2></div>
+	    <div class="slide" id="slide2"><h2>Diente de Leon Taraxacum Officinale</h2></div>
+	    <div class="slide" id="slide3"><h2>Hemíptero Stenomacra Marginella</h2></div>
+	    <div class="slide" id="slide4"><h2>Mosca Verde Phaenicia Sericata</h2></div>
+	    
+	</div>	
+	
+
+</body>
+</html>
+
